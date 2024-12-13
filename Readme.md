@@ -1,4 +1,8 @@
 # Google Maps in SwiftUI Tutorial
+![Swift](https://img.shields.io/badge/Swift-5.10-orange.svg)
+![Platform](https://img.shields.io/badge/Platform-iOS%20-red.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/iOS-18-green.svg)
 
 Welcome to the **Google Maps in SwiftUI Tutorial**! This guide walks you through integrating and using Google Maps in a SwiftUI-based iOS application. By the end, you’ll have a functioning app that displays Google Maps, handles user location updates, and provides interactivity with markers and gestures.
 
@@ -19,7 +23,7 @@ Welcome to the **Google Maps in SwiftUI Tutorial**! This guide walks you through
 ## Requirements
 
 1. **Xcode 15+**
-2. **Swift 5.9+**
+2. **Swift 5.10+**
 3. **Google Maps SDK for iOS**
 4. **Swift Package Manager (SPM)**
 
