@@ -6,12 +6,26 @@
 //
 
 import SwiftUI
+import GoogleMaps
+
 
 @main
 struct Google_Maps_TutorialApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+    }
+}
+
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        GMSServices.provideAPIKey("YourApiKey")
+        return true
     }
 }

@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		DEBE464C2D0CBF3300520E7B /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = DEBE464B2D0CBF3300520E7B /* GoogleMaps */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		DEB17CF22CD9787F001F6C17 /* Google Maps Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google Maps Tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEBE464C2D0CBF3300520E7B /* GoogleMaps in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = "Google Maps Tutorial";
 			packageProductDependencies = (
+				DEBE464B2D0CBF3300520E7B /* GoogleMaps */,
 			);
 			productName = "Google Maps Tutorial";
 			productReference = DEB17CF22CD9787F001F6C17 /* Google Maps Tutorial.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = DEB17CE92CD9787F001F6C17;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				DEBE464A2D0CBF3300520E7B /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = DEB17CF32CD9787F001F6C17 /* Products */;
 			projectDirPath = "";
@@ -255,6 +264,8 @@
 				DEVELOPMENT_TEAM = 5RM3B24YU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Konumunuzu her zaman kullanmak istiyorum";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konumunuzu kullanmak istiyorum";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +295,8 @@
 				DEVELOPMENT_TEAM = 5RM3B24YU6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Konumunuzu her zaman kullanmak istiyorum";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Konumunuzu kullanmak istiyorum";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -324,6 +337,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DEBE464A2D0CBF3300520E7B /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEBE464B2D0CBF3300520E7B /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEBE464A2D0CBF3300520E7B /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEB17CEA2CD9787F001F6C17 /* Project object */;
 }
