@@ -41,7 +41,7 @@ Add the Google Maps SDK to your project using SPM.
 2. Add the following package URL:
     
     ```bash
-    https://github.com/googlemaps/google-maps-ios
+    [https://github.com/googlemaps/google-maps-ios](https://github.com/googlemaps/ios-maps-sdk)
     ```
     
 
